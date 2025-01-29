@@ -1,0 +1,31 @@
+{
+  "name": "renovate-npm-devdep-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Demo project to replicate the Renovate issue with handling a transitive npm dev dependency",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kisaiev/renovate-npm-devdep-issue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kisaiev/renovate-npm-devdep-issue/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
+  },
+  "keywords": [
+    "npm",
+    "renovate"
+  ],
+  "author": {
+    "name": "Kostiantyn Isaiev"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@semantic-release/npm": "^12.0.0"
+  }
+}
